@@ -1,5 +1,38 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+	background-color: #f8f8f8;
+	color: #333;
+	transition: all 0.3s ease-in-out;
+}
+
+body.dark {
+	background-color: #333;
+	color: #f8f8f8;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+}
+
+button {
+	padding: 10px 20px;
+	border: none;
+	background-color: #333;
+	color: #f8f8f8;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: #f8f8f8;
+	color: #333;
+}
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
